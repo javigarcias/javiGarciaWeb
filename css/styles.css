@@ -1,6 +1,5 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f5f9;
     margin: 0px;
 }
 .cabecera{
@@ -8,47 +7,60 @@
     background: #ffffff;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
 }
 .logo{
     height: 7em;
     width: 10em;
-    background-color: #ffffff;
-    border: 1px solid chartreuse;
     display: flex;
 }
 .fotoLogo{
-    height: 6em;
+    height: 7em;
     margin-left: 3em;
 }
-
 .menu{
-    width: 15em;
-    border: 1px solid blueviolet;
-    display: flex;
-    background: #ffffff;
-
+    width: 20em;
+    display:flex;
+    align-items: flex-end;
+    margin-right: 2em;
 }
 a{
     text-decoration: none;
     color: #88adbb;
 }
+a:hover{
+    color: #577e8c;
+}
 .menu1{
     width: 10em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    border-right: 1px solid #88adbb;
 }
 .menu2{
     width: 10em;
-
+    margin-bottom: 1em;
+    margin-left: 1em;
+    border-right: 1px solid #88adbb;
 }
 .menu3{
     width: 10em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
 
 }
 .presentacion{
-    height: 25em;
+    height: 30em;
     display: flex;
+    border: 1px solid rebeccapurple;
 }
-
+.fotoPresentacion{
+    width: 100%;
+}
+.textoPresentacion{
+    width: 50%;
+    border: 1px solid blue;
+}
 footer{
     align-items: center;
     color: #88adbb;
