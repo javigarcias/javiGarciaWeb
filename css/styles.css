@@ -3,7 +3,6 @@
     margin: 0px;
 }
 body{
-    background-color: ;
 }
 .cabecera{
     height: 7em;
@@ -69,13 +68,24 @@ a:hover{
     font-size: 1.5em;
 }
 .textoPresentacion2{
-    height: 55%;
+    height: 45%;
     padding-top: 1em;
     color: #888888;
     border-top: 2px solid #88adbb;
 }
 .textoPresentacion3{
-    height: 30%;
+    height: 40%;
+    background-color:red;
+    display: flex;
+
+}
+
+.espacioBoton{
+    width: 25%;
+    background-color: royalblue;
+}
+.espacioBoton1{
+    width: 50%;
     background-color:red;
 }
 .presentacionFoto{
@@ -91,4 +101,38 @@ a:hover{
 footer{
     align-items: center;
     color: #88adbb;
+}
+
+/*Contacto*/
+
+.areaContacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.contacto{
+    width: 30em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textoContacto1{
+    height: 10%;
+    align-self: center;
+    font-size: 3em;
+    margin-bottom: 0.6em;
+}
+.textoContacto2{
+    height: 30%;
+    color: #888888;
+    border-top: 2px solid #88adbb;
+    margin-top: 1em;
+
+}
+.textoContacto3{
+    height: 10%;
+  
 }
